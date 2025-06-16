@@ -12,6 +12,7 @@
 
     <div class="container">
         <div class="music-player">
+            <!-- Navigation Bar -->
             <nav>
                 <div class="circle">
                     <i class="fa-solid fa-angle-left"></i>
@@ -20,15 +21,31 @@
                     <i class="fa-solid fa-bars"></i>
                 </div>
             </nav>
+
+            <!-- Thumbnail, Song Title, Artist Name -->
             <img src="media/thumbnail.png" class="song-img">
             <h1>And I Smoke</h1>
             <p>Hot Mulligan</p>
 
-            <audio controls>
+            <!-- Audio Controls -->
+            <audio controls id="song">
                 <source src="media/music/Hot-Mulligan - Why Would I Watch/And I Smoke.mp3" type="audio/mpeg">
             </audio>
+
+            <!-- Progress Bar -->
+            <input type="range" value="0" id="progress">
+
+
+            <div class="controls">
+                <div><i class="fa-solid fa-backward"></i></div>
+                <div onclick="playPause()"><i class="fa-solid fa-play" id="ctrlIcon"></i></div>
+                <div><i class="fa-solid fa-forward"></i></div>
+            </div>
+
         </div>
     </div>
+
+    <script src="script.js"></script>
 
 </body>
 
