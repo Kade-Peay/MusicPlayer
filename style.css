@@ -73,8 +73,8 @@ nav .circle {
     -webkit-appearance: none;
     appearance: none;
     background: #f53192;
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
     border-radius: 50%;
     border: 8px solid #fff;
     box-shadow: 0 5px 5px rgba(255, 26, 26, 0.22);
@@ -82,8 +82,8 @@ nav .circle {
 
 #progress::-moz-range-thumb {
     background: #f53192;
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
     border-radius: 50%;
     border: 8px solid #fff;
     box-shadow: 0 5px 5px rgba(255, 26, 26, 0.22);
